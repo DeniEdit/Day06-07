@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1140px;
+    margin: 0 auto; 
+}
+
+h1{
+    text-align: center;
+    color: red;
+    padding-top: 20px;
+}
+
+p{
+    padding: 10px;
+}
+
+.header{
+    color:blue;
+}
+
+p{
+    text-align: justify;
+}
+
+
+.first {
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+img{
+    width: 350px;
+    height: 200px;
+}
+
+
+.first article:nth-child(1){
+   
+    padding: 0 20px;
+}
+
+
+.first article:nth-child(2){
+  
+   padding: 0 20px;
+
+}
+
+
+.first article:nth-child(3){
+   padding: 20px;
+
+}
+
+
+
+
